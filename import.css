@@ -370,3 +370,44 @@ div:has(> .header-3OsQeK):not(.bannerVisible-Vkyg1I) .animatedContainer-2laTjx {
     width: 100%;
     padding: 0;
 }
+.sidebarRegion-1VBisG,
+.sidebarRegionScroller-FXiQOh {
+    width: fit-content;
+    min-width: unset;
+    flex-grow: 0;
+}
+.sidebarRegion-1VBisG {
+    border-radius: 0 16px 16px 0;
+    overflow: hidden;
+    border: 3px solid var(--brand-600);
+    border-left: none;
+    width: 50%;
+}
+.sidebarRegionScroller-FXiQOh,
+.contentRegionScroller-2_GT_N,
+.contentRegion-3HkfJJ {
+    background-color: var(--background-floating);
+}
+.standardSidebarView-E9Pc3j {
+    background-color: var(--background-secondary-alt);
+}
+.contentRegionScroller-2_GT_N {
+    border: 3px solid var(--brand-600);
+    border-right: none;
+    border-radius: 16px 0 0 16px;
+    justify-content: center;
+}
+.contentRegion-3HkfJJ {
+    border-radius: 16px 0 0 16px;
+}
+.standardSidebarView-E9Pc3j {
+    gap: 8px;
+    padding: 16px 0;
+}
+.container-2cd8Mz,
+.nowPlayingColumn-1eCBCN,
+.nowPlayingColumn-1eCBCN .container-1oAagU,
+.applicationStore-2nk7Lo,
+.scroller-29cQFV {
+    background: transparent;
+}
