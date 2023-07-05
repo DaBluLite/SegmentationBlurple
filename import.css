@@ -444,9 +444,6 @@ div:has(> .header-3OsQeK):not(.bannerVisible-Vkyg1I) .animatedContainer-2laTjx {
     margin: 0;
     background-color: transparent;
 }
-.content-yjf30S > div:not([class])[style*="height"] {
-    display: none;
-}
 .item-5ApiZt {
     border-radius: 20px;
     margin: 0;
