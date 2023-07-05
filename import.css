@@ -411,3 +411,13 @@ div:has(> .header-3OsQeK):not(.bannerVisible-Vkyg1I) .animatedContainer-2laTjx {
 .scroller-29cQFV {
     background: transparent;
 }
+.item-2LIpTv {
+    background-color: var(--brand-630);
+}
+.expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) {
+    box-shadow: 0 0 0 2px var(--brand-700);
+    background-color: transparent;
+}
+.folder-241Joy[aria-expanded="true"] {
+    background-color: transparent;
+}
