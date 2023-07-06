@@ -463,3 +463,9 @@ div:has(> .header-3OsQeK):not(.bannerVisible-Vkyg1I) .animatedContainer-2laTjx {
     padding: 5px !important;
     overflow: hidden overlay !important;
 }
+.userProfileInner-1ngKnf {
+    border-radius: 12px;
+}
+.messagesWrapper-RpOMA3 {
+    height: 100%;
+}
