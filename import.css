@@ -469,3 +469,27 @@ div:has(> .header-3OsQeK):not(.bannerVisible-Vkyg1I) .animatedContainer-2laTjx {
 .messagesWrapper-RpOMA3 {
     height: 100%;
 }
+#app-mount .pageWrapper-2PwDoS,
+#app-mount .scroller-RfJjkV,
+.sidebar-1tnWFu > .scrollerBase-1Pkza4,
+#app-mount .container-3wLKDe,
+#app-mount .container-3YcgdM {
+    background-color: var(--background-floating);
+    margin: 5px;
+    border-radius: 16px;
+}
+#app-mount .container-3YcgdM {
+    border: 3px solid var(--brand-630);
+    top: 0;
+}
+.membersWrap-3NUR2t {
+    max-width: 280px;
+    width: fit-content;
+    flex-shrink: 0;
+}
+.sidebar-3K3Z4C {
+    border: none;
+}
+.list-38_JVu div:not([class])[style*="height"] {
+    display: none;
+}
