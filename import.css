@@ -21,6 +21,12 @@
     margin-right: auto;
     color: var(--header-primary);
 }
+.topicsPillContainer-1LeYIf {
+    padding: 4px;
+    border-radius: 8px;
+    top: 10px;
+    background-color: var(--background-secondary);
+}
 .wordmarkWindows-2dq6rw::after {
     content: "Discord";
     display: flex;
@@ -188,8 +194,13 @@ html:has(#activeColorway:not(:empty)) .wordmarkWindows-2dq6rw::after {
 .unread-36eUEm {
     border-radius: 50%;
     width: 8px;
-    left: 2px;
+    left: -4px;
     background-color: var(--brand-experiment) !important;
+    z-index: +1;
+}
+:root {
+    --radius-xs: 12px;
+    --radius-sm: 12px;
 }
 .content-1gYQeQ {
     margin-left: 0;
