@@ -510,3 +510,108 @@ div:has(> .header-3OsQeK):not(.bannerVisible-Vkyg1I) .animatedContainer-2laTjx {
     bottom: 10px;
     background-color: var(--background-secondary);
 }
+.chatButton-10jXXp,
+.toolbar-3_r2xA > div > .button-ejjZWC {
+  margin: 0 4px;
+  padding: 6px;
+  background-color: var(--background-tertiary);
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  min-height: unset;
+}
+.chatButton-10jXXp {
+  top: 11px;
+  right: 8px;
+}
+.userPopoutOverlayBackground-3A0Pcz {
+  margin: 28px 0 0;
+  border-radius: 0 0 8px 8px;
+  padding: 12px;
+}
+.clipContainer-31nYlH {
+  padding-top: 0;
+  border-radius: 16px;
+  margin-top: 0;
+}
+.attachedBars-2BCP3l {
+  border-radius: 16px;
+  background: var(--background-floating);
+  border: 1px solid var(--background-primary);
+  margin-bottom: 4px;
+}
+.replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
+  background: transparent;
+}
+.bd-addon-card,
+.bd-button-title,
+.root-1CAIjD:not(:has(>.wrapper-rWtXPd>.imageWrapper-oMkQl4)) {
+  border-radius: 16px !important;
+  border: 3px solid var(--brand-600);
+  background: var(--background-tertiary) !important;
+}
+.bd-addon-header {
+  background: transparent !important;
+}
+.bd-settings-container {
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--background-secondary);
+  transition: none;
+  height: fit-content !important;
+}
+.bd-setting-divider {
+  display: none;
+}
+.bd-setting-item {
+  margin-bottom: 0;
+}
+.bd-settings-group.collapsed .bd-settings-container {
+  display: none;
+}
+.colorwayModalFooter {
+  background: none;
+}
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz {
+  background-color: transparent;
+  border: 1px solid var(--background-primary);
+  border-radius: 50px;
+}
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+  background-color: transparent;
+  border: 3px solid var(--brand-600);
+  border-radius: 50px;
+  color: var(--header-primary);
+}
+.colorwayPresetContainer,
+.colorwayCreatorPreviewPanel,
+.colorwayAuthor,
+.colorwayImport {
+  background-color: transparent !important;
+  border: 1px solid var(--background-primary);
+  border-radius: 16px !important;
+}
+.colorwayPresetContainerItem {
+  border-radius: 16px !important;
+}
+.modalHeader-gQTY3L {
+  margin-bottom: 0;
+  background: none !important;
+  box-sizing: border-box;
+  margin: 10px;
+  border-radius: 16px;
+  padding: 0;
+}
+.headerBackground-131uxy {
+  position: static;
+  box-sizing: border-box;
+  height: 140px;
+}
+.paymentNote-3dcb-Z,
+.wrapper-wOVKdL,
+.body-2qXItL,
+.footer-IubaaS,
+.spinner-1HUPsi {
+  background: none;
+  box-shadow: none !important;
+}
